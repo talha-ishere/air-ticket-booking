@@ -1,0 +1,97 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1544829728-e5cb9eedc20e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.headBar {
+  background-color: transparent;
+  height: vh;
+  width: 100vw;
+}
+.footBar {
+  margin-top: 1px;
+  height: 85vh;
+  width: 100vw;
+  /* background-color: #e4e6e9; */
+  /* background-image: url("https://images.unsplash.com/photo-1544829728-e5cb9eedc20e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+}
+.login-box {
+  width: 60rem;
+  height: 33rem;
+  /* background-color: #003580; */
+
+  /* background: rgb(0, 53, 128);
+  background: linear-gradient(90deg, rgba(0, 53, 128, 1) 22%, rgba(51, 51, 155, 1) 43%); */
+  /* background-image: url("https://images.unsplash.com/photo-1544829728-e5cb9eedc20e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+  background-color: transparent;
+
+  position: absolute;
+  top: 13%;
+  left: 17%;
+  right: 0;
+  bottom: 0;
+  /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); */
+  /* border: none; */
+  /* border-radius: 5px; */
+  /* padding: 2rem; */
+  color: #3b4a54;
+  outline: none;
+}
+.login-box h1 {
+  font-weight: 300;
+  line-height: normal;
+}
+.login-box-wrapper {
+  position: relative;
+}
+.form-wrapper {
+  background-color: white;
+  position: absolute;
+  height: 28rem;
+  width: 25rem;
+  top: 30px;
+  right: 230px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  border-radius: 5px;
+}
+.form-wrapper input {
+  margin-top: 2px;
+  height: 2.4rem;
+  font-size: large;
+  border: 1px solid #a2abb1;
+  outline: none;
+  border-radius: 2px;
+}
+.login-button {
+  background-color: #003580;
+  padding: 15px 5px;
+  border: none;
+  color: white;
+  font-size: large;
+  margin-top: 5px;
+  border-radius: 2px;
+  text-decoration-color: white;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #003580e1;
+}
+.form-wrapper span {
+  color: #003580dd;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+.form-fields p {
+  color: tomato;
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+.modal {
+  width: 90%;
+}

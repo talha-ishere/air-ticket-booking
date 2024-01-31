@@ -1,0 +1,37 @@
+.seats-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  margin: 2px;
+  word-wrap: break-word;
+  white-space: normal;
+  /* display: inline-flex; */
+  flex-wrap: wrap;
+}
+
+.single-seat {
+  margin-top: 5px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  padding: 0px 0px;
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  /* height: 15%; */
+}
+.seat-modal .ant-modal-footer .ant-btn-primary {
+  display: none;
+}
+.bookingModal .ant-modal-footer .ant-btn-primary {
+  display: none;
+}
+
+.flightDetailModal .ant-modal-footer .ant-btn-primary {
+  display: none;
+}
+.flightDetailModal .ant-modal-footer .ant-btn-primary {
+  display: none;
+}
